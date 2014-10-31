@@ -6,6 +6,8 @@ defaultVersion=4.1-jdk8
 versions=( 4.0-jdk7 4.1-jdk8 )
 url='git://github.com/aws/aws-eb-glassfish'
 
+echo '# maintainer: Amazon Web Services <https://aws.amazon.com/contact-us/> (@aws)'
+
 for version in "${versions[@]}"; do
 	commit="$(git log -1 --format='format:%H' -- "$version")"
 	
