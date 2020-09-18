@@ -1,4 +1,4 @@
-FROM        java:7-jdk
+FROM        openjdk:7-jdk-slim
 
 ENV         JAVA_HOME         /usr/lib/jvm/java-7-openjdk-amd64
 ENV         GLASSFISH_HOME    /usr/local/glassfish4
